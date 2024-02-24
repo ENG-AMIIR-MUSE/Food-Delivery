@@ -59,31 +59,31 @@ function Navbar() {
          <h1 className="p-4 text-xl"><span>Best</span> <span className="font-bold ">Chicken</span></h1>
       <nav>
          <ul className="flex flex-col gap-1  ">
-            <li className="flex gap-3 p-2  items-center">
+            <li className="flex gap-3 p-2  items-center hover:bg-gray-200">
                <TbTruckDelivery/>
                Orders
             </li>
-            <li className="flex gap-3 p-2  items-center">
+            <li className="flex gap-3 p-2  items-center   hover:bg-gray-200">
                <MdFavorite/>
                Favorites
             </li>
-            <li className="flex gap-3 p-2  items-center">
+            <li className="flex gap-3 p-2  items-center  hover:bg-gray-200">
                <FaWallet/>
                Wallets
             </li>
-            <li className="flex gap-3 p-2  items-center">
+            <li className="flex gap-3 p-2  items-center  hover:bg-gray-200">
                <MdHelp/>
                Help
             </li>
-            <li className="flex gap-3 p-2  items-center">
+            <li className="flex gap-3 p-2  items-center  hover:bg-gray-200">
                <AiFillTag/>
                Promotions
             </li>
-            <li className="flex gap-3 p-2  items-center">
+            <li className="flex gap-3 p-2  items-center  hover:bg-gray-200">
                <BsSaveFill/>
                Best Ones
             </li>
-            <li className="flex gap-3 p-2  items-center">
+            <li className="flex gap-3 p-2  items-center  hover:bg-gray-200">
                <FaUserFriends/>
                Invite Friends
             </li>
