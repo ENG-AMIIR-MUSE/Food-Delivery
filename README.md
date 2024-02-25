@@ -1,3 +1,41 @@
+# Food Deliver Website 
+
+## Overview 
+
+Food Deliver Website is a Website That  You Can Order Any Kind Of Food With Going To Resturant Just using Website 
+and its solves Many Kind of Problems 
+
+## Table Contents
+
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Installation](#installation)
+
+## Features
+
+1. Ordering
+2. Awsome User Interface
+3. Side Bar
+4. Mobile responsive
+
+   
+## Getting Started 
+
+To explore Amir's Blog Haven locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/ENG-AMIIR-MUSE/Food-Delivery.git
+
+# Navigate to the project directory
+cd Delivery-Delivery
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+````
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
