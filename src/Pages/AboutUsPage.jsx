@@ -5,37 +5,71 @@ import ibra from "../assets/ibra2.jpg";
 import ibra2 from "../assets/ibra.jpg";
 import sacid from "../assets/sacid.jpg";
 import ahmed from "../assets/ahmed.png";
+import gayac from "../assets/gayac.jpg";
+import noUser from "../assets/no-user.jpg";
 
 export default function AboutUsPage() {
   const data = [
     {
       id: 2,
-      name: "Bacon Cheeseburger",
-      category: "burger",
-      image: amir,
-      price: "$",
-    },
-    {
-      id: 2,
-      name: "Bacon Cheeseburger",
-      category: "burger",
+      name: "Amiir Muse Hassan",
 
-      image: ibra,
-      price: "$",
+      image: amir,
     },
+
     {
       id: 2,
-      name: "Bacon Cheeseburger",
-      category: "burger",
+      name: "Ibraahim Abdi Dhicishoow",
+
       image: ibra2,
-      price: "$",
     },
     {
       id: 2,
-      name: "Bacon Cheeseburger",
-      category: "burger",
+      name: "Saacid Yusuf Hussein",
+
       image: sacid,
-      price: "$",
+    },
+    {
+      id: 2,
+      name: "Abdiweli Abdullahi Sirad",
+
+      image: gayac,
+    },
+    {
+      id: 2,
+      name: "Sumayo Idiris Hassan",
+
+      image: noUser,
+    },
+    {
+      id: 2,
+      name: "Nasteho Hussein Abdi",
+
+      image: noUser,
+    },
+    {
+      id: 2,
+      name: "Ismaaciil Ibraahim Ahmed",
+
+      image: noUser,
+    },
+    {
+      id: 2,
+      name: "Ismaacil Abdirahman Mohamed ",
+
+      image: noUser,
+    },
+    {
+      id: 2,
+      name: "Mohamed Aden",
+
+      image: noUser,
+    },
+    {
+      id: 2,
+      name: "Amiir ",
+
+      image: noUser,
     },
   ];
   return (
