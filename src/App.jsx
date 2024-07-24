@@ -19,6 +19,9 @@ const LazySingleFoodPage = React.lazy(() => import("./Pages/SingleFoodPage"));
 const LazyDashboardComponent = React.lazy(() =>
   import("./Pages/DashboardPage")
 );
+const LazyAboutUsComponent = React.lazy(() =>
+  import("./Pages/AboutUsPage")
+);
 const LazyCartComponent = React.lazy(() => import("./Components/Cart"));
 
 function App() {
@@ -36,6 +39,7 @@ function App() {
         <Route path="/dashboard" element={<LazyDashboardComponent />} />
         <Route path="/create-shipper" element={<LazyShipperCreationPage />} />
         <Route path="/contact-us" element={<LazyContactUsPage />} />
+        <Route path="/about-us" element={<LazyAboutUsComponent />} />
       </Routes>
       <LazyFooter />
     </Suspense>

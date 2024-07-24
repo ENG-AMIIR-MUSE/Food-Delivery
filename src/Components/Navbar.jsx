@@ -19,7 +19,12 @@ import {
 
 import { AppCont } from "./AppContext";
 import { TbTruckDelivery } from "react-icons/tb";
-import { MdFavorite, MdHelp, MdOutlineRestaurantMenu } from "react-icons/md";
+import {
+  MdFavorite,
+  MdHelp,
+  MdOutlineRestaurantMenu,
+  MdOutlineRoundaboutRight,
+} from "react-icons/md";
 import { BsSaveFill } from "react-icons/bs";
 import { BiSolidCategory } from "react-icons/bi";
 
@@ -199,6 +204,19 @@ function Navbar() {
             >
               <FaUser />
               Contact Us
+            </Link>
+            <Link
+              to={"/about-us"}
+              onClick={() => {
+                // alert("click")
+                setHideNav(!hideNav);
+              }}
+              className={`flex gap-3 p-2  items-center  ${
+                dark ? "hover:bg-[#333333]" : "hover:bg-gray-200"
+              }`}
+            >
+              <MdOutlineRoundaboutRight />
+              About Us
             </Link>
             <Link
               to={"/login"}

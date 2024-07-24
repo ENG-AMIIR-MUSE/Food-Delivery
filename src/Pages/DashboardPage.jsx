@@ -98,31 +98,33 @@ const DashboardPage = () => {
               Add New
             </button>
           </div>
-          <table className="min-w-full ">
-            <thead>
-              <tr className="text-justify">
-                <th className="py-2 px-4 border-b ">Name</th>
-                <th className="py-2 px-4 border-b ">Position</th>
-                <th className="py-2 px-4 border-b ">Contact</th>
-                <th className="py-2 px-4 border-b ">Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              {shippers.map((shipper) => (
-                <tr key={shipper.id}>
-                  <td className="py-2 px-4 border-b ">{shipper.name}</td>
-                  <td className="py-2 px-4 border-b ">{shipper.position}</td>
-                  <td className="py-2 px-4 border-b ">{shipper.contact}</td>
-                  <td className="py-2 px-4 border-b ">
-                    <span className="flex justify-between items-center">
-                      <FaEdit />
-                      <FaTrash />
-                    </span>
-                  </td>
+          <div className="overflow-x-auto">
+            <table className="min-w-full">
+              <thead>
+                <tr className="text-left">
+                  <th className="py-2 px-4 border-b">Name</th>
+                  <th className="py-2 px-4 border-b">Position</th>
+                  <th className="py-2 px-4 border-b">Contact</th>
+                  <th className="py-2 px-4 border-b">Action</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {shippers.map((shipper) => (
+                  <tr key={shipper.id}>
+                    <td className="py-2 px-4 border-b">{shipper.name}</td>
+                    <td className="py-2 px-4 border-b">{shipper.position}</td>
+                    <td className="py-2 px-4 border-b">{shipper.contact}</td>
+                    <td className="py-2 px-4 border-b">
+                      <span className="flex justify-between items-center">
+                        <FaEdit />
+                        <FaTrash />
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <ShipperCreationPage

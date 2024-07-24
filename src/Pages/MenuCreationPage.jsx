@@ -43,7 +43,6 @@ export default function MenuCreationPage() {
                   />
                 </div>
                 <div class="col-span-2 sm:col-span-1">
-              
                   <input
                     type="text"
                     id="number"
@@ -55,18 +54,42 @@ export default function MenuCreationPage() {
                   />
                 </div>
                 <div class="col-span-2 sm:col-span-1">
-              
                   <select
                     id="category"
-                    className={ `  ${
+                    className={`  ${
                       dark ? "bg-gray-700 text-white" : "bg-gray-100 text-black"
                     } border border-gray-300  text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500`}
                   >
-                    <option  className={`${dark ? "text-white":"text-blue-500"}`} selected="">Select category</option>
-                    <option className={`${dark ? "text-white":"text-black"}`} value="TV">TV/Monitors</option>
-                    <option className={`${dark ? "text-white":"text-black"}`} value="PC">PC</option>
-                    <option className={`${dark ? "text-white":"text-black"}`} value="GA">Gaming/Console</option>
-                    <option className={`${dark ? "text-white":"text-black"}`} value="PH">Phones</option>
+                    <option
+                      className={`${dark ? "text-white" : "text-blue-500"}`}
+                      selected=""
+                    >
+                      Select category
+                    </option>
+                    <option
+                      className={`${dark ? "text-white" : "text-black"}`}
+                      value="TV"
+                    >
+                      TV/Monitors
+                    </option>
+                    <option
+                      className={`${dark ? "text-white" : "text-black"}`}
+                      value="PC"
+                    >
+                      PC
+                    </option>
+                    <option
+                      className={`${dark ? "text-white" : "text-black"}`}
+                      value="GA"
+                    >
+                      Gaming/Console
+                    </option>
+                    <option
+                      className={`${dark ? "text-white" : "text-black"}`}
+                      value="PH"
+                    >
+                      Phones
+                    </option>
                   </select>
                 </div>
 
@@ -80,7 +103,7 @@ export default function MenuCreationPage() {
                   <input
                     type="text"
                     id="des"
-                    className={ ` h-[100px] ${
+                    className={` h-[100px] ${
                       dark ? "bg-gray-700" : "bg-gray-100"
                     } border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-orange-500 dark:focus:border-orange-500`}
                     placeholder="Example@gmail.com"
@@ -91,11 +114,10 @@ export default function MenuCreationPage() {
             </form>
             <button
               type="submit"
-              className="w-full text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800"
+              className="w-full text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800"
             >
-             Create your  Menu
+              Create your Menu
             </button>
-       
           </div>
         </div>
       </div>

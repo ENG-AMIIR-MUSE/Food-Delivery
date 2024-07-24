@@ -17,11 +17,10 @@ export default function RegisterPage() {
       >
         <div>
           <h5 className="mb-2 text-2xl font-semibold tracking-tight ">
-          Sign In Your Account
-          {" "}
+            Sign In Your Account{" "}
           </h5>
         </div>
-       
+
         <div className="flex flex-col gap-5">
           <div>
             <label
@@ -41,10 +40,7 @@ export default function RegisterPage() {
             />
           </div>
           <div>
-            <label
-              htmlFor="email"
-              className="block mb-2 text-sm font-medium  "
-            >
+            <label htmlFor="email" className="block mb-2 text-sm font-medium  ">
               Email
             </label>
             <input
@@ -76,14 +72,14 @@ export default function RegisterPage() {
           </div>
           <button
             type="submit"
-            className="w-full text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800"
+            className="w-full text-white bg-orange-500 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800"
           >
             Login to your account
           </button>
           <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
-           Have An Account ?{" "}
+            Have An Account ?{" "}
             <Link
-              to={'/login'}
+              to={"/login"}
               className="text-orange-700 hover:underline dark:text-orange-500"
             >
               Login

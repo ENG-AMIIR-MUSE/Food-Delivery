@@ -42,7 +42,7 @@ export default function ContactUsPage() {
   });
 
   return (
-    <div className=" p-5 h-[90vh] m-auto max-w-lg mb-5 ">
+    <div className=" p-5 h-[100vh] flex justify-center items-center m-auto max-w-lg mb-5 ">
       <Formik
         initialValues={{
           from_name: "",
