@@ -3,7 +3,7 @@
 ## Introduction
 SF is a platform that connects businesses with freelancers, aiming to streamline collaboration. The platform provides a seamless experience for freelancers to showcase their skills and for businesses to discover talented professionals. SF integrates various features, including job postings, project management, communication tools, and secure payment processing.
 
-![Website Preview](/client/src/assets/project.png)
+![Website Preview](/food-delivery/src/assets/project.png)
 
 ## Features
 
